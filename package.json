@@ -1,6 +1,7 @@
 {
   "name": "poketrainers",
   "version": "0.1.0",
+  "homepage" : "http://wgoode3.github.io/Pokemon-Trainer-Cards",
   "private": true,
   "dependencies": {
     "react": "^16.8.6",

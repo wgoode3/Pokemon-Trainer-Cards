@@ -1,0 +1,225 @@
+/* I still prefer doing css like this instead of component by component */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#root {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.card {
+    margin-left: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 10px 0;
+    width: 480px;
+    height: 300px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    background: repeating-linear-gradient(#eee 8px, #ccc 8px, #ccc 12px, #eee 12px, #eee 20px);
+}
+
+.card-top {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    padding: 5px 20px;
+}
+
+.card-top h2 {
+    color: goldenrod;
+    font-weight: normal;
+    border-top: 2px solid goldenrod;
+    border-bottom: 2px solid goldenrod;
+    height: 36px;
+    line-height: 40px;
+    padding: 0 5px;
+}
+
+.card-top h3 {
+    background-color: #fff;
+    border-radius: 5px;
+    color: #333;
+    padding: 5px 10px;
+    font-weight: normal;
+    margin-top: 5px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.card-main {
+    height: 180px;
+    display: flex;
+}
+.col-1-4, .col-3-4 { margin: 10px; }
+.col-1-4 { flex: 1; }
+.col-3-4 { flex: 3; }
+
+.card-bottom {
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+}
+
+.label {
+    margin-left: 20px;
+    font-weight: normal;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+.icons {
+    height: 1.2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icons img {
+    height: 1rem;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #3339;
+}
+
+.search {
+    width: 640px;
+    position: fixed;
+    top: calc(50vh - 250px);
+    left: calc(50vw - 320px);
+}
+
+.title-bar {
+    height: 40px;
+    padding: 0 10px;
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-bar h3, .title-bar a {
+    color: #fffc;
+    line-height: 40px;
+}
+
+.title-bar a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.title-bar a:hover {
+    color: #fff;
+}
+
+.search-main {
+    background-color: #fff;
+    height: 440px;
+    overflow: auto;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+
+.search-main img {
+    padding: 5px;
+}
+
+.search-main img:hover {
+    background-color: #eee;
+}
+
+.card-poke {
+    width: 100px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #333;
+    display: inline-block;
+    background-color: #ccc;
+    height: 70px;
+    overflow: hidden;
+}
+
+.card-poke:nth-child(3n-2) {
+    margin-left: 0;
+}
+
+.card-poke img {
+    width: 100px;
+    margin-top: -15px;
+}
+
+.avatar {
+    width: 100px;
+    margin-top: 20px;
+}
+
+.smaller {
+    width: 64px;
+    height: 64px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: normal;
+}
+
+.form {
+    display: inline-block;
+    margin: 0 20px;
+    vertical-align: top;
+}
+
+.form-group {
+    width: 450px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-group > label {
+    flex: 1;
+    padding: 5px 0;
+}
+
+.form-group > input, .form-group > button {
+    flex: 3;
+    padding: 5px;
+}
+
+.submit {
+    background-color: rebeccapurple;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    border: none;
+    float: right;
+    cursor: pointer;
+}
+
+.submit:disabled {
+    filter: grayscale(100%);
+    cursor: not-allowed;
+}
+
+input.search-input {
+    padding: 2px;
+    height: 20px;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-right: 10px;
+}
