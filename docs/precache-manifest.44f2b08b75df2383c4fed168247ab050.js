@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0f0ad0781178982e89166979ce42fb84",
+    "revision": "73c4571646433d21f02b5034c188a79b",
     "url": "/Pokemon-Trainer-Cards/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Pokemon-Trainer-Cards/static/js/2.826aec37.chunk.js"
   },
   {
-    "revision": "aa2f601a4f94fc89e46f",
-    "url": "/Pokemon-Trainer-Cards/static/js/main.0e7b7769.chunk.js"
+    "revision": "c9d47e546c67f1ea94e0",
+    "url": "/Pokemon-Trainer-Cards/static/js/main.21d8d0ff.chunk.js"
   },
   {
     "revision": "5c2c4370a81d9095e291",

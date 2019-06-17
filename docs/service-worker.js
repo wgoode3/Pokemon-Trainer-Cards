@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Pokemon-Trainer-Cards/precache-manifest.ecb1e0888775a794ae382fe0447ac4cf.js"
+  "/Pokemon-Trainer-Cards/precache-manifest.44f2b08b75df2383c4fed168247ab050.js"
 );
 
 self.addEventListener('message', (event) => {

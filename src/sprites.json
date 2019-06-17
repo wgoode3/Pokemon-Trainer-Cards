@@ -1005,30 +1005,6 @@
             "img": "/sprites/trainers/Spr_FRLG_Super_Nerd.png"
         },
         {
-            "name": "Sailor",
-            "img": "/sprites/trainers/Spr_FRLG_Sailor.png"
-        },
-        {
-            "name": "Scientist",
-            "img": "/sprites/trainers/Spr_FRLG_Scientist.png"
-        },
-        {
-            "name": "Super Nerd",
-            "img": "/sprites/trainers/Spr_FRLG_Super_Nerd.png"
-        },
-        {
-            "name": "Sailor",
-            "img": "/sprites/trainers/Spr_FRLG_Sailor.png"
-        },
-        {
-            "name": "Scientist",
-            "img": "/sprites/trainers/Spr_FRLG_Scientist.png"
-        },
-        {
-            "name": "Super Nerd",
-            "img": "/sprites/trainers/Spr_FRLG_Super_Nerd.png"
-        },
-        {
             "name": "Swimmer F",
             "img": "/sprites/trainers/Spr_FRLG_Swimmer_F.png"
         },

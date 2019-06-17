@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/Pokemon-Trainer-Cards/static/js/main.0e7b7769.chunk.js",
-    "main.js.map": "/Pokemon-Trainer-Cards/static/js/main.0e7b7769.chunk.js.map",
+    "main.js": "/Pokemon-Trainer-Cards/static/js/main.21d8d0ff.chunk.js",
+    "main.js.map": "/Pokemon-Trainer-Cards/static/js/main.21d8d0ff.chunk.js.map",
     "runtime~main.js": "/Pokemon-Trainer-Cards/static/js/runtime~main.5591a562.js",
     "runtime~main.js.map": "/Pokemon-Trainer-Cards/static/js/runtime~main.5591a562.js.map",
     "static/js/2.826aec37.chunk.js": "/Pokemon-Trainer-Cards/static/js/2.826aec37.chunk.js",
     "static/js/2.826aec37.chunk.js.map": "/Pokemon-Trainer-Cards/static/js/2.826aec37.chunk.js.map",
     "index.html": "/Pokemon-Trainer-Cards/index.html",
-    "precache-manifest.ecb1e0888775a794ae382fe0447ac4cf.js": "/Pokemon-Trainer-Cards/precache-manifest.ecb1e0888775a794ae382fe0447ac4cf.js",
+    "precache-manifest.44f2b08b75df2383c4fed168247ab050.js": "/Pokemon-Trainer-Cards/precache-manifest.44f2b08b75df2383c4fed168247ab050.js",
     "service-worker.js": "/Pokemon-Trainer-Cards/service-worker.js"
   }
 }
